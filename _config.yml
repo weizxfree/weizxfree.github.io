@@ -12,6 +12,10 @@ language: zh-CN
 timezone: ''
 sitemap:
   path: sitemap.xml
+  rel: true               # 是否为 sitemap 设置 <link rel="sitemap" href="...">，默认是 true
+  tags: false              # 是否为 tags 页生成 sitemap 条目，默认是 true
+  categories: false        # 是否为 categories 页生成 sitemap 条目，默认是 true
+  pages: true
 
 # URL
 ## Set your site url here. For example, if you use GitHub Page, set url as 'https://username.github.io/project'
