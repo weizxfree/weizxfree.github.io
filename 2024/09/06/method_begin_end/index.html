@@ -1,0 +1,395 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width">
+<meta name="theme-color" content="#222"><meta name="generator" content="Hexo 7.3.0">
+
+
+
+  <link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon-next.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/images/favicon-32x32-next.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/images/favicon-16x16-next.png">
+  <link rel="mask-icon" href="/images/logo.svg" color="#222">
+  <meta name="google-site-verification" content="2bF0yySW1sQ_Y8CfGQNavYgzSTG_kj3ovXDHlOfwudo">
+  <meta name="baidu-site-verification" content="codeva-RzHXK2d31K">
+
+<link rel="stylesheet" href="/css/main.css">
+
+
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha256-XOqroi11tY4EFQMR9ZYwZWKj5ZXiftSx36RRuC3anlA=" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.1.1/animate.min.css" integrity="sha256-PR7ttpcvz8qrF57fur/yAx1qXMFJeJFiA6pSzWi0OIE=" crossorigin="anonymous">
+
+<script class="next-config" data-name="main" type="application/json">{"hostname":"www.datatower.site","root":"/","images":"/images","scheme":"Mist","darkmode":false,"version":"8.20.0","exturl":false,"sidebar":{"position":"left","width_expanded":320,"width_dual_column":240,"display":"post","padding":18,"offset":12},"hljswrap":true,"copycode":{"enable":false,"style":null},"fold":{"enable":false,"height":500},"bookmark":{"enable":false,"color":"#222","save":"auto"},"mediumzoom":false,"lazyload":false,"pangu":false,"comments":{"style":"tabs","active":"gitalk","storage":true,"lazyload":false,"nav":null,"activeClass":"gitalk"},"stickytabs":false,"motion":{"enable":true,"async":false,"transition":{"menu_item":"fadeInDown","post_block":"fadeIn","post_header":"fadeInDown","post_body":"fadeInDown","coll_header":"fadeInLeft","sidebar":"fadeInUp"}},"i18n":{"placeholder":"搜索...","empty":"没有找到任何搜索结果：${query}","hits_time":"找到 ${hits} 个搜索结果（用时 ${time} 毫秒）","hits":"找到 ${hits} 个搜索结果"},"path":"/search.xml","localsearch":{"enable":true,"top_n_per_article":1,"unescape":false,"preload":false}}</script><script src="/js/config.js"></script>
+
+    <meta name="description" content="职场工作十年有余，见证了老同事带领团队辛辛苦苦做了一个项目两年多，项目上线后，发现一个关键的性能问题未解决，导致客户无法集成使用，几十人的团队，两年多的付出都付诸东流。这件事给我深刻的感触，如果是我或者你，身处棋局，如何尽可能保证我们做出来的事情达成目标，降低失败的可能性？ 什么是逆向工作法 逆向工作法指的是把战略建立在不变的事物上。来源于亚马逊创始人贝佐斯，每当他不得不做出重大决策时，他常常会以">
+<meta property="og:type" content="article">
+<meta property="og:title" content="亚马逊逆向工作法">
+<meta property="og:url" content="https://www.datatower.site/2024/09/06/method_begin_end/index.html">
+<meta property="og:site_name" content="大数据采集与分析小站">
+<meta property="og:description" content="职场工作十年有余，见证了老同事带领团队辛辛苦苦做了一个项目两年多，项目上线后，发现一个关键的性能问题未解决，导致客户无法集成使用，几十人的团队，两年多的付出都付诸东流。这件事给我深刻的感触，如果是我或者你，身处棋局，如何尽可能保证我们做出来的事情达成目标，降低失败的可能性？ 什么是逆向工作法 逆向工作法指的是把战略建立在不变的事物上。来源于亚马逊创始人贝佐斯，每当他不得不做出重大决策时，他常常会以">
+<meta property="og:locale" content="zh_CN">
+<meta property="og:image" content="https://www.datatower.site/2024/09/06/method_begin_end/begin_end.png">
+<meta property="og:image" content="https://www.datatower.site/2024/09/06/method_begin_end/news_example.png">
+<meta property="article:published_time" content="2024-09-06T00:39:44.959Z">
+<meta property="article:modified_time" content="2024-09-19T08:54:26.290Z">
+<meta property="article:author" content="Tom">
+<meta property="article:tag" content="埋点采集,大数据分析">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:image" content="https://www.datatower.site/2024/09/06/method_begin_end/begin_end.png">
+
+
+<link rel="canonical" href="https://www.datatower.site/2024/09/06/method_begin_end/">
+
+
+
+<script class="next-config" data-name="page" type="application/json">{"sidebar":"","isHome":false,"isPost":true,"lang":"zh-CN","comments":true,"permalink":"https://www.datatower.site/2024/09/06/method_begin_end/","path":"2024/09/06/method_begin_end/","title":"亚马逊逆向工作法"}</script>
+
+<script class="next-config" data-name="calendar" type="application/json">""</script>
+<title>亚马逊逆向工作法 | 大数据采集与分析小站</title>
+  
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-36YELW4JSK"></script>
+  <script class="next-config" data-name="google_analytics" type="application/json">{"tracking_id":"G-36YELW4JSK","only_pageview":false,"measure_protocol_api_secret":null}</script>
+  <script src="/js/third-party/analytics/google-analytics.js"></script>
+
+  <script src="/js/third-party/analytics/baidu-analytics.js"></script>
+  <script async src="https://hm.baidu.com/hm.js?94ead005597270e9b3ad86638e47fdafß"></script>
+
+
+
+
+
+
+
+  <noscript>
+    <link rel="stylesheet" href="/css/noscript.css">
+  </noscript>
+<link rel="alternate" href="/atom.xml" title="大数据采集与分析小站" type="application/atom+xml">
+</head>
+
+<body itemscope itemtype="http://schema.org/WebPage" class="use-motion">
+  <div class="headband"></div>
+
+  <main class="main">
+    <div class="column">
+      <header class="header" itemscope itemtype="http://schema.org/WPHeader"><div class="site-brand-container">
+  <div class="site-nav-toggle">
+    <div class="toggle" aria-label="切换导航栏" role="button">
+        <span class="toggle-line"></span>
+        <span class="toggle-line"></span>
+        <span class="toggle-line"></span>
+    </div>
+  </div>
+
+  <div class="site-meta">
+
+    <a href="/" class="brand" rel="start">
+      <i class="logo-line"></i>
+      <p class="site-title">大数据采集与分析小站</p>
+      <i class="logo-line"></i>
+    </a>
+      <p class="site-subtitle" itemprop="description">一个大数据采集、分析的经验分享平台</p>
+  </div>
+
+  <div class="site-nav-right">
+    <div class="toggle popup-trigger" aria-label="搜索" role="button">
+        <i class="fa fa-search fa-fw fa-lg"></i>
+    </div>
+  </div>
+</div>
+
+
+
+<nav class="site-nav">
+  <ul class="main-menu menu"><li class="menu-item menu-item-home"><a href="/" rel="section"><i class="fa fa-home fa-fw"></i>首页</a></li><li class="menu-item menu-item-archives"><a href="/archives/" rel="section"><i class="fa fa-archive fa-fw"></i>归档</a></li>
+      <li class="menu-item menu-item-search">
+        <a role="button" class="popup-trigger"><i class="fa fa-search fa-fw"></i>搜索
+        </a>
+      </li>
+  </ul>
+</nav>
+
+
+
+  <div class="search-pop-overlay">
+    <div class="popup search-popup">
+      <div class="search-header">
+        <span class="search-icon">
+          <i class="fa fa-search"></i>
+        </span>
+        <div class="search-input-container">
+          <input autocomplete="off" autocapitalize="off" maxlength="80"
+                placeholder="搜索..." spellcheck="false"
+                type="search" class="search-input">
+        </div>
+        <span class="popup-btn-close" role="button">
+          <i class="fa fa-times-circle"></i>
+        </span>
+      </div>
+      <div class="search-result-container">
+        <div class="search-result-icon">
+          <i class="fa fa-spinner fa-pulse fa-5x"></i>
+        </div>
+      </div>
+    </div>
+  </div>
+
+</header>
+        
+  
+  <aside class="sidebar">
+
+    <div class="sidebar-inner sidebar-nav-active sidebar-toc-active">
+      <ul class="sidebar-nav">
+        <li class="sidebar-nav-toc">
+          文章目录
+        </li>
+        <li class="sidebar-nav-overview">
+          站点概览
+        </li>
+      </ul>
+
+      <div class="sidebar-panel-container">
+        <!--noindex-->
+        <div class="post-toc-wrap sidebar-panel">
+            <div class="post-toc animated"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#%E4%BB%80%E4%B9%88%E6%98%AF%E9%80%86%E5%90%91%E5%B7%A5%E4%BD%9C%E6%B3%95"><span class="nav-number">1.</span> <span class="nav-text">什么是逆向工作法</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E8%B4%9D%E4%BD%90%E6%96%AF%E7%9A%84%E9%80%86%E5%90%91%E5%B7%A5%E4%BD%9C%E6%B3%95"><span class="nav-number">2.</span> <span class="nav-text">贝佐斯的逆向工作法</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E4%BB%A5%E7%BB%88%E4%B8%BA%E5%A7%8B"><span class="nav-number">3.</span> <span class="nav-text">以终为始</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E6%96%B0%E9%97%BB%E7%A8%BF"><span class="nav-number">4.</span> <span class="nav-text">新闻稿</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#Kindle"><span class="nav-number">5.</span> <span class="nav-text">Kindle</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E6%80%BB%E7%BB%93"><span class="nav-number">6.</span> <span class="nav-text">总结</span></a></li></ol></div>
+        </div>
+        <!--/noindex-->
+
+        <div class="site-overview-wrap sidebar-panel">
+          <div class="site-author animated" itemprop="author" itemscope itemtype="http://schema.org/Person">
+  <p class="site-author-name" itemprop="name">Tom</p>
+  <div class="site-description" itemprop="description">专注于大数据埋点采集、分析的知识分享平台</div>
+</div>
+<div class="site-state-wrap animated">
+  <nav class="site-state">
+      <div class="site-state-item site-state-posts">
+        <a href="/archives/">
+          <span class="site-state-item-count">2</span>
+          <span class="site-state-item-name">日志</span>
+        </a>
+      </div>
+  </nav>
+</div>
+
+        </div>
+      </div>
+    </div>
+
+    
+  </aside>
+
+
+    </div>
+
+    <div class="main-inner post posts-expand">
+
+
+  
+
+
+<div class="post-block">
+  
+  
+
+  <article itemscope itemtype="http://schema.org/Article" class="post-content" lang="zh-CN">
+    <link itemprop="mainEntityOfPage" href="https://www.datatower.site/2024/09/06/method_begin_end/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="image" content="/images/avatar.gif">
+      <meta itemprop="name" content="Tom">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="大数据采集与分析小站">
+      <meta itemprop="description" content="专注于大数据埋点采集、分析的知识分享平台">
+    </span>
+
+    <span hidden itemprop="post" itemscope itemtype="http://schema.org/CreativeWork">
+      <meta itemprop="name" content="亚马逊逆向工作法 | 大数据采集与分析小站">
+      <meta itemprop="description" content="">
+    </span>
+      <header class="post-header">
+        <h1 class="post-title" itemprop="name headline">
+          亚马逊逆向工作法
+        </h1>
+
+        <div class="post-meta-container">
+          <div class="post-meta">
+    <span class="post-meta-item">
+      <span class="post-meta-item-icon">
+        <i class="far fa-calendar"></i>
+      </span>
+      <span class="post-meta-item-text">发表于</span>
+
+      <time title="创建时间：2024-09-06 08:39:44" itemprop="dateCreated datePublished" datetime="2024-09-06T08:39:44+08:00">2024-09-06</time>
+    </span>
+    <span class="post-meta-item">
+      <span class="post-meta-item-icon">
+        <i class="far fa-calendar-check"></i>
+      </span>
+      <span class="post-meta-item-text">更新于</span>
+      <time title="修改时间：2024-09-19 16:54:26" itemprop="dateModified" datetime="2024-09-19T16:54:26+08:00">2024-09-19</time>
+    </span>
+
+  
+    <span class="post-meta-item" title="阅读次数" id="busuanzi_container_page_pv">
+      <span class="post-meta-item-icon">
+        <i class="eye"></i>
+      </span>
+      <span class="post-meta-item-text">阅读次数：</span>
+      <span id="busuanzi_value_page_pv"></span>
+    </span>
+</div>
+
+        </div>
+      </header>
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody"><p>职场工作十年有余，见证了老同事带领团队辛辛苦苦做了一个项目两年多，项目上线后，发现一个关键的性能问题未解决，导致客户无法集成使用，几十人的团队，两年多的付出都付诸东流。<br>这件事给我深刻的感触，如果是我或者你，身处棋局，如何尽可能保证我们做出来的事情达成目标，降低失败的可能性？</p>
+<h2 id="什么是逆向工作法"><a href="#什么是逆向工作法" class="headerlink" title="什么是逆向工作法"></a>什么是逆向工作法</h2><blockquote>
+<p>逆向工作法指的是把战略建立在<strong>不变</strong>的事物上。来源于亚马逊创始人贝佐斯，每当他不得不做出重大决策时，他常常会以这种方式来思考问题，比如贝佐斯认为在零售业，客户永远不变的就是想要更低的价格、更快捷的配送和更多样的选择,企业必须先搞清楚客户究竟要什么，再进行逆向操作，在对的事情上投入大量精力，只有这样企业才能在未来持续获血。</p>
+</blockquote>
+<p><img src="/2024/09/06/method_begin_end/begin_end.png"></p>
+<h2 id="贝佐斯的逆向工作法"><a href="#贝佐斯的逆向工作法" class="headerlink" title="贝佐斯的逆向工作法"></a>贝佐斯的逆向工作法</h2><p>贝佐斯在选择创业时，老板多方挽留。他也不确定自己创业是否能成功，在他作出决定之前，他做了一个最小化后悔表,“假设自己80岁高龄时,对20岁时没有创业会不会后悔?”</p>
+<p>　　答案是显而易见的，他不会因为自己没有成为更高阶的职业经理人而后悔，但是如果没有创业他一定会后悔。贝佐斯后来还将这种逻辑应用到他的个人生活中，每当他不得不做出重大决策时，他常常会以这种方式来思考问题。</p>
+<p>　　这就是“逆向工作法”，其最关键的就是找到你一开始做这件事情的最初目的，然后根据这个目的去工作。</p>
+<p>　　而与之形成鲜明对比的“技能导向法”则主张“我们擅长做什么”、“ 通过做什么，还能再做什么?”尽管不少时候，技能导向法是一种有用并且一定程度上奏效的商业模式。但如果沉浸于此，就会丧失创新的动力。</p>
+<p>　　乔布斯领导的苹果公司采取的常常是“技能导向法”，苹果公司的创新往往是技术的变革以及乔布斯天马行空的想象力结合的产物。在这个方法下，企业更倾向于领导客户，改变消费观念，让顾客接受它的产品和理念。</p>
+<p>　　而贝佐斯认为，亚马逊网站设计的总体哲学是对客户友好，应该将注意力放在顾客身上，而不是网站上。他的目标不仅是让浏览书籍变得更容易，而且要让这成为-种愉快的体验。正是在这种哲学之下，亚马逊发明了“一键下单”功能以方便顾客购买;还有“书内阅读”、“书内搜索”功能，获得了广大顾客尤其是大学生群体的喜爱和追捧。</p>
+<p>　　正是这种为顾客着想的态度赢得了顾客的好感，亚马逊的书评区更像-一个社交平台, 人们在这里畅所欲言，也正因为通过这种方式建立起来的顾客群体和良好口碑，亚马逊的图书销量不断提升。</p>
+<h2 id="以终为始"><a href="#以终为始" class="headerlink" title="以终为始"></a>以终为始</h2><p>逆向工作法是一个很好的思维方式。通过以目标倒推关键节点或产品策略，最终达成聚焦的目的。<br>如果要问逆向工作法最重要的一点是什么？一定是思维习惯的转变：<br><strong>“逆向工作法” 的根本出发点，是从内部或公司的视角转变为客户的视角。</strong></p>
+<h2 id="新闻稿"><a href="#新闻稿" class="headerlink" title="新闻稿"></a>新闻稿</h2><p>逆向工作法说起来简单，实施起来却很难。因为人的思维习惯天然的从正向思考，根据已有的经验和思维习惯惯性的往前冲。亚马逊的逆向工作法中有一点我想和大家分享下：<strong>新闻稿</strong>。</p>
+<p><strong>新闻稿</strong>让读者拥有最精彩的客户体验。<strong>常见问题</strong>提供关于客户体验的所有重要细节，同时又能全面而清晰地评估公司打造该产品或创造该服务将面临多大的成本或挑战。</p>
+<p>新闻稿主要包括下列部分：</p>
+<ul>
+<li><p>标题：以阅读者（你的目标客户）容易理解的方式点出产品的名字。</p>
+</li>
+<li><p>副标题：描述产品以及客户使用该产品的益处。</p>
+</li>
+<li><p>摘要：首先写明城市、媒体渠道以及计划发布的日期，然后简述产品的情况及其好处。</p>
+</li>
+<li><p>问题：描述产品要解决的具体问题。一定要从客户的角度写这个部分。</p>
+</li>
+<li><p>解决方案：较为详细地描述你的产品，以及它如何便捷地解决客户的问题。</p>
+</li>
+<li><p>引用及购买：引用公司发言人的一句话，再引用假想客户的一句话，表明他们使用你的新产品所获得的各种好处。要表明购买该产品方便、快捷，给出网站链接，以便让客户获取更多信息和购买产品。</p>
+</li>
+</ul>
+<p><strong>常见问题</strong>通常可分为<strong>对外常见问题</strong>（关注客户）和<strong>对内常见问题</strong>（关注公司）。<strong>对外常见问题</strong>是客户或媒体会对有关产品提出的问题，包括产品的工作方式、价格、如何及何处购买等更为细节的问题。这些问题是针对具体产品的，因而每份 PR&#x2F;FAQ 的<strong>常见问题</strong>都是独特的。<strong>对内常见问题</strong>则有更标准化的、需要予以解答的问题清单。</p>
+<p>其实这里就是 “以终为始” 的思想，我们可以同时引入 “新闻稿” 和 “常见问题”。</p>
+<p><img src="/2024/09/06/method_begin_end/news_example.png"></p>
+<h2 id="Kindle"><a href="#Kindle" class="headerlink" title="Kindle"></a>Kindle</h2><p>Kindle 作为家喻户晓的电子书阅读器，这个产品的决策过程是非常值得学习的。Kindle<br>的两大创新在于无线传送和电子墨水屏。作为一个市面上从未见过的产品，这些创新点在决策时运用了逆向工作法，只有无线传送，才可以把图书馆装到自己的口袋，而不是先考虑技术如何实现；只有电子墨水屏，才能实现接近纸质书的阅读体验。从客户的需求出发，倒推出产品的核心竞争点。这是典型的应用场景。</p>
+<h2 id="总结"><a href="#总结" class="headerlink" title="总结"></a>总结</h2><p>逆向工作法本质上是思维方式的改变，由公司内部转变成市场客户，把战略的设定基于「不变的」的基本点，倒推执行。</p>
+
+    </div>
+
+    
+    
+    
+
+    <footer class="post-footer">
+
+        
+
+          <div class="post-nav">
+            <div class="post-nav-item">
+                <a href="/2024/09/06/data-track/" rel="prev" title="埋点">
+                  <i class="fa fa-angle-left"></i> 埋点
+                </a>
+            </div>
+            <div class="post-nav-item">
+            </div>
+          </div>
+    </footer>
+  </article>
+</div>
+
+
+
+
+
+
+    <div class="comments gitalk-container"></div>
+</div>
+  </main>
+
+  <footer class="footer">
+    <div class="footer-inner">
+
+  <div class="copyright">
+    &copy; 
+    <span itemprop="copyrightYear">2024</span>
+    <span class="with-love">
+      <i class="fa fa-heart"></i>
+    </span>
+    <span class="author" itemprop="copyrightHolder">Tom</span>
+  </div>
+<div class="busuanzi-count">
+    <span class="post-meta-item" id="busuanzi_container_site_uv">
+      <span class="post-meta-item-icon">
+        <i class="user"></i>
+      </span>
+      <span class="site-uv" title="总访客量">
+        <span id="busuanzi_value_site_uv"></span>
+      </span>
+    </span>
+    <span class="post-meta-item" id="busuanzi_container_site_pv">
+      <span class="post-meta-item-icon">
+        <i class="eye"></i>
+      </span>
+      <span class="site-pv" title="总访问量">
+        <span id="busuanzi_value_site_pv"></span>
+      </span>
+    </span>
+</div>
+
+    </div>
+  </footer>
+
+  
+  <div class="toggle sidebar-toggle" role="button">
+    <span class="toggle-line"></span>
+    <span class="toggle-line"></span>
+    <span class="toggle-line"></span>
+  </div>
+  <div class="sidebar-dimmer"></div>
+  <div class="back-to-top" role="button" aria-label="返回顶部">
+    <i class="fa fa-arrow-up fa-lg"></i>
+    <span>0%</span>
+  </div>
+
+<noscript>
+  <div class="noscript-warning">Theme NexT works best with JavaScript enabled</div>
+</noscript>
+
+
+  
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/3.2.1/anime.min.js" integrity="sha256-XL2inqUJaslATFnHdJOi9GfQ60on8Wx1C2H8DYiN1xY=" crossorigin="anonymous"></script>
+<script src="/js/comments.js"></script><script src="/js/utils.js"></script><script src="/js/motion.js"></script><script src="/js/sidebar.js"></script><script src="/js/next-boot.js"></script>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/hexo-generator-searchdb/1.4.1/search.js" integrity="sha256-1kfA5uHPf65M5cphT2dvymhkuyHPQp5A53EGZOnOLmc=" crossorigin="anonymous"></script>
+<script src="/js/third-party/search/local-search.js"></script>
+
+
+
+
+
+
+
+  
+  <script async src="https://busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
+
+
+
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/gitalk/1.8.0/gitalk.css" integrity="sha256-AJnUHL7dBv6PGaeyPQJcgQPDjt/Hn/PvYZde1iqfp8U=" crossorigin="anonymous">
+
+<script class="next-config" data-name="gitalk" type="application/json">{"enable":true,"github_id":"weizxfree","repo":"weizxfree.github.io","client_id":"Ov23liGhYhxcSl59UNTY","client_secret":"ce664ce60ebeb8287717f35bde628f474a9ec436","admin_user":"weizxfree","distraction_free_mode":true,"proxy":"https://cors-anywhere.azm.workers.dev/https://github.com/login/oauth/access_token","language":"zh-CN","js":{"url":"https://cdnjs.cloudflare.com/ajax/libs/gitalk/1.8.0/gitalk.min.js","integrity":"sha256-MVK9MGD/XJaGyIghSVrONSnoXoGh3IFxLw0zfvzpxR4="},"path_md5":"1b37e1fc1b6880c911aff632ade31c96"}</script>
+<script src="/js/third-party/comments/gitalk.js"></script>
+
+</body>
+</html>
