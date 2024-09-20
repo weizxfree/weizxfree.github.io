@@ -119,5 +119,5 @@ search:
 ## Docs: https://hexo.io/docs/one-command-deployment
 deploy:
   type: git
-  repo: https://weizxfree@github.com/weizxfree/weizxfree.github.io
+  repo: git@github.com:weizxfree/weizxfree.github.io.git
   branch: gh-pages
