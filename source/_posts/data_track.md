@@ -3,7 +3,7 @@ title: 埋点
 ---
 
 在大数据领域，数据源有多种途径，如服务端、数据仓库、客户端等。客户端包含 Android、iOS、网页、小程序，以及 Flutter、React Native、uni-app 等第三方框架或平台。对于客户端应用和网页而言，**埋点**是大数据分析系统中不可或缺的组成部分。
-![](sources.png)
+![](/images/data_track/sources.png)
 
 ## 什么是埋点？
 
@@ -31,7 +31,7 @@ title: 埋点
 
 可视化埋点和代码埋点相辅相成，适用于不同的业务场景。例如，在 App 内嵌的 H5 活动页面上，运营人员可以通过可视化埋点轻松满足需求。
 
-![](visual.png)
+![](/images/data_track/visual.png)
 
 
 ### 3. 无埋点
@@ -48,7 +48,7 @@ Tag Manager 结合了代码埋点和可视化埋点的优点，尤其适合 Web 
 
 未来，国内或许也会诞生类似 Google Tag Manager 的工具。
 
-![](tag_manager.png)
+![](/images/data_track/tag_manager.png)
 
 ## 总结
 
