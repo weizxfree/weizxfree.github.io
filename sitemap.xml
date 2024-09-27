@@ -2,36 +2,27 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>https://www.datatower.site/en/data-track/</loc>
+    <loc>https://www.datatower.site/2024/09/27/track_tec/</loc>
     
-    <lastmod>2024-09-24</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.datatower.site/en/method_begin_end/</loc>
-    
-    <lastmod>2024-09-24</lastmod>
+    <lastmod>2024-09-27</lastmod>
     
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
-    <loc>https://www.datatower.site/zh-CN/data-track/</loc>
+    <loc>https://www.datatower.site/2024/09/24/method_begin_end/</loc>
     
-    <lastmod>2024-09-24</lastmod>
+    <lastmod>2024-09-27</lastmod>
     
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
-    <loc>https://www.datatower.site/zh-CN/method_begin_end/</loc>
+    <loc>https://www.datatower.site/2024/09/24/data_track/</loc>
     
-    <lastmod>2024-09-24</lastmod>
+    <lastmod>2024-09-27</lastmod>
     
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
@@ -49,7 +40,7 @@
 
   <url>
     <loc>https://www.datatower.site/</loc>
-    <lastmod>2024-09-24</lastmod>
+    <lastmod>2024-09-27</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>
