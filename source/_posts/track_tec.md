@@ -1,5 +1,7 @@
 ---
 title: 埋点 SDK 数据采集软件架构
+categories: 
+  - 大数据
 ---
 
 # 背景
